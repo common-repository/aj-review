@@ -1,0 +1,817 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AJ-Review\n"
+"POT-Creation-Date: 2019-12-16 14:09+0900\n"
+"PO-Revision-Date: 2019-12-16 14:10+0900\n"
+"Last-Translator: AJBang <2p1d@2p1d.com>\n"
+"Language-Team: AJBang <2p1d@2p1d.com>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: aj-review.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: aj-review.php:68
+msgid "AJ 리뷰"
+msgstr "AJ レビューリスト"
+
+#: aj-review.php:69 views/ajrv_rlist.php:17 views/ajrv_rlist_link.php:91
+#: views/ajrv_rlist_shcode.php:60 views/ajrv_rlist_view.php:33
+msgid "리뷰 목록"
+msgstr "レビューリスト"
+
+#: aj-review.php:70 inc/ajrv.widget.php:138 inc/ajrv.widget.php:157
+#: views/ajrv_post_metabox_html.php:76
+msgid "리뷰 그룹"
+msgstr "レビューグループ"
+
+#: aj-review.php:71 views/ajrv_rlist.php:17 views/ajrv_rlist.php:27
+#: views/ajrv_rlist_edit.php:142 views/ajrv_rlist_new.php:14
+#: views/ajrv_rlist_shcode.php:7
+msgid "리뷰 등록"
+msgstr "レビュー登録"
+
+#: aj-review.php:72
+msgid "설정"
+msgstr "セッティング"
+
+#: inc/ajrv.admin.group.list.php:37 views/ajrv_rlist_group_edit.php:40
+msgid "그룹 이름"
+msgstr "グループ名"
+
+#: inc/ajrv.admin.group.list.php:38
+msgid "그룹 번호"
+msgstr "グループ番号"
+
+#: inc/ajrv.admin.group.list.php:39 views/ajrv_rlist_shcode.php:16
+#: views/ajrv_rlist_shcode.php:39 views/ajrv_rlist_shcode.php:66
+#: views/ajrv_rlist_shcode.php:101
+msgid "설명"
+msgstr "説明"
+
+#: inc/ajrv.admin.group.list.php:40 inc/ajrv.admin.review.list.php:58
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: inc/ajrv.admin.group.list.php:41
+msgid "리뷰 개수"
+msgstr "レビュー数"
+
+#: inc/ajrv.admin.group.list.php:92 inc/ajrv.admin.review.list.php:144
+#: views/ajrv_rlist_view.php:32
+msgid "수정"
+msgstr "修正"
+
+#: inc/ajrv.admin.group.list.php:94 inc/ajrv.admin.review.list.php:100
+#: inc/ajrv.admin.review.list.php:146 views/ajrv_post_metabox_html.php:166
+#: views/ajrv_post_metabox_html.php:179 views/ajrv_rlist_edit.php:9
+msgid "삭제"
+msgstr "削除"
+
+#: inc/ajrv.admin.review.list.php:51 views/ajrv_post_metabox_html.php:93
+msgid "리뷰 제목"
+msgstr "レビューのタイトル"
+
+#: inc/ajrv.admin.review.list.php:52
+msgid "그룹"
+msgstr "グループ"
+
+#: inc/ajrv.admin.review.list.php:53 inc/ajrv.widget.php:198
+#: views/ajrv_post_metabox_html.php:109
+msgid "카테고리"
+msgstr "カテゴリー"
+
+#: inc/ajrv.admin.review.list.php:54
+msgid "총점"
+msgstr "総点"
+
+#: inc/ajrv.admin.review.list.php:55
+msgid "사용자 점수"
+msgstr "ユーザーの評価"
+
+#: inc/ajrv.admin.review.list.php:56
+msgid "가치"
+msgstr "価値"
+
+#: inc/ajrv.admin.review.list.php:57
+msgid "연결된 글"
+msgstr "接続された文"
+
+#: inc/ajrv.admin.review.list.php:59
+msgid "등록일"
+msgstr "登録日"
+
+#: inc/ajrv.admin.review.list.php:87 inc/ajrv.widget.php:141
+#: inc/ajrv.widget.php:160 views/ajrv_setting_basic.php:60
+msgid "모두"
+msgstr "すべて"
+
+#: inc/ajrv.admin.review.list.php:132
+#, php-format
+msgid "선택 %s"
+msgstr "選択％s"
+
+#: inc/ajrv.admin.review.list.php:145
+msgid "보기"
+msgstr "表示"
+
+#: inc/ajrv.admin.review.list.php:148
+msgid "글 연결 해제"
+msgstr "文切断"
+
+#: inc/ajrv.admin.review.list.php:150
+msgid "글 연결"
+msgstr "記事リンク"
+
+#: inc/ajrv.widget.php:10
+msgid "AJ Review 목록"
+msgstr "AJ Reviewリスト"
+
+#: inc/ajrv.widget.php:123
+msgid "리뷰가 없습니다."
+msgstr "レビューがありません。"
+
+#: inc/ajrv.widget.php:137
+msgid "Top 3 Items"
+msgstr "Top 3 Items"
+
+#: inc/ajrv.widget.php:139 inc/ajrv.widget.php:147
+msgid "스킨"
+msgstr "スキン"
+
+#: inc/ajrv.widget.php:142
+msgid "더보기"
+msgstr "もっと見る"
+
+#: inc/ajrv.widget.php:150
+msgid "박스 스킨"
+msgstr "ボックススキン"
+
+#: inc/ajrv.widget.php:151
+msgid "심플 스킨"
+msgstr "シンプルスキン"
+
+#: inc/ajrv.widget.php:152
+msgid "White 스킨"
+msgstr "Whiteスキン"
+
+#: inc/ajrv.widget.php:173
+msgid "제목"
+msgstr "タイトル"
+
+#: inc/ajrv.widget.php:182
+msgid "표시 개수"
+msgstr "表示数"
+
+#: inc/ajrv.widget.php:202
+msgid "연관된 카테고리"
+msgstr "関連カテゴリー"
+
+#: inc/ajrv.widget.php:215
+msgid "정렬 방식"
+msgstr "並べ替え"
+
+#: inc/ajrv.widget.php:218
+msgid "총점이 높은순"
+msgstr "総点が高い順"
+
+#: inc/ajrv.widget.php:219
+msgid "총점이 낮은순"
+msgstr "総点が低い順"
+
+#: inc/ajrv.widget.php:224
+msgid "더보기 링크 Text"
+msgstr "もっと見るリンクText"
+
+#: inc/ajrv.widget.php:233
+msgid "더보기 링크 Link"
+msgstr "もっと見るリンクLink"
+
+#: views/ajrv_comment.php:5
+msgid "사용자 리뷰"
+msgstr "ユーザーレビュー"
+
+#: views/ajrv_comment.php:93
+msgid "리뷰인가요?"
+msgstr "レビューですか？"
+
+#: views/ajrv_comment.php:144
+msgid "이미 리뷰를 등록하였습니다."
+msgstr "既にレビューを登録しました。"
+
+#: views/ajrv_options_page_html.php:17
+msgid "AJ 리뷰 플러그인 설정"
+msgstr "AJレビュープラグインの設定"
+
+#: views/ajrv_post_metabox_html.php:78
+msgid "리뷰 그룹을 선택해주세요."
+msgstr "レビューグループを選択してください。"
+
+#: views/ajrv_post_metabox_html.php:101
+msgid "평가 요약"
+msgstr "評価の概要"
+
+#: views/ajrv_post_metabox_html.php:126
+msgid "카테고리를 추가해주세요."
+msgstr "カテゴリを追加してください。"
+
+#: views/ajrv_post_metabox_html.php:130
+msgid "카테고리 추가"
+msgstr "カテゴリ"
+
+#: views/ajrv_post_metabox_html.php:136
+msgid "취소"
+msgstr "キャンセル"
+
+#: views/ajrv_post_metabox_html.php:143
+msgid "리뷰 항목"
+msgstr "レビュー項目"
+
+#: views/ajrv_post_metabox_html.php:144
+msgid "항목 추가하기"
+msgstr "項目を追加する"
+
+#: views/ajrv_post_metabox_html.php:175 views/ajrv_rlist_edit.php:9
+msgid "항목을 입력해주세요."
+msgstr "項目を入力してください。"
+
+#: views/ajrv_post_metabox_html.php:185 views/ajrv_post_metabox_html.php:188
+#: views/ajrv_review_list_html.php:149 views/ajrv_setting_basic.php:30
+#: views/ajrv_view_single_post_html.php:84
+msgid "장점"
+msgstr "利点"
+
+#: views/ajrv_post_metabox_html.php:185 views/ajrv_post_metabox_html.php:192
+#: views/ajrv_review_list_html.php:150 views/ajrv_setting_basic.php:31
+#: views/ajrv_view_single_post_html.php:85
+msgid "단점"
+msgstr "欠点"
+
+#: views/ajrv_post_metabox_html.php:188 views/ajrv_post_metabox_html.php:192
+msgid "한줄씩 입력해주세요."
+msgstr "行ずつ入力してください。"
+
+#: views/ajrv_post_metabox_html.php:203
+msgid "대표 이미지"
+msgstr "代表画像"
+
+#: views/ajrv_post_metabox_html.php:203
+msgid "글 연결시, 글의 대표 이미지가 사용됨"
+msgstr "文接続時は、文の代表画像が使用され"
+
+#: views/ajrv_post_metabox_html.php:212
+msgid "사진 선택"
+msgstr "写真を選択"
+
+#: views/ajrv_post_metabox_html.php:214
+msgid "선택 해제"
+msgstr "選択を解除"
+
+#: views/ajrv_post_metabox_html.php:271
+msgid "판매사"
+msgstr "販社"
+
+#: views/ajrv_post_metabox_html.php:279
+msgid "플랫폼"
+msgstr "プラットフォーム"
+
+#: views/ajrv_post_metabox_html.php:287
+msgid "한단어 평가"
+msgstr "邯鄲語評価"
+
+#: views/ajrv_post_metabox_html.php:295
+msgid "구매 적정가(가치)"
+msgstr "購入は適正（価値）"
+
+#: views/ajrv_review_list_html.php:141 views/ajrv_setting_basic.php:20
+#: views/ajrv_view_single_post_html.php:75
+msgid "리뷰"
+msgstr "レビュー"
+
+#: views/ajrv_rlist.php:21
+msgid "리뷰 수정"
+msgstr "レビュー修正"
+
+#: views/ajrv_rlist.php:33
+msgid "리뷰 연결"
+msgstr "レビューリンク"
+
+#: views/ajrv_rlist.php:38
+msgid "리뷰 보기"
+msgstr "レビューを見る"
+
+#: views/ajrv_rlist_edit.php:142 views/ajrv_rlist_group_edit.php:53
+msgid "변경 사항 저장"
+msgstr "変更を保存"
+
+#: views/ajrv_rlist_edit.php:143 views/ajrv_rlist_group_edit.php:54
+#: views/ajrv_rlist_group_list.php:22
+msgid "그룹 목록"
+msgstr "グループのリスト"
+
+#: views/ajrv_rlist_edit.php:149
+msgid "리뷰 그룹 생성 필요"
+msgstr "レビューグループの作成が必要"
+
+#: views/ajrv_rlist_edit.php:150
+msgid "리뷰 그룹을 먼저 만들어주세요."
+msgstr "レビューグループを最初に作成してください。"
+
+#: views/ajrv_rlist_edit.php:151
+msgid "리뷰 그룹 만들기"
+msgstr "レビューグループの作成"
+
+#: views/ajrv_rlist_group_edit.php:4
+msgid "그룹 이름을 입력해주세요."
+msgstr "グループ名を入力してください。"
+
+#: views/ajrv_rlist_group_edit.php:4 views/ajrv_rlist_link.php:4
+msgid "글을 1개 선택해주세요."
+msgstr "文を1つ選択してください。"
+
+#: views/ajrv_rlist_group_edit.php:35 views/ajrv_rlist_group_list.php:23
+msgid "그룹 만들기"
+msgstr "グループを作成する"
+
+#: views/ajrv_rlist_group_edit.php:47
+msgid "그룹 설명"
+msgstr "グループの説明"
+
+#: views/ajrv_rlist_group_edit.php:47
+msgid "사용자 화면에 나타나지는 않습니다."
+msgstr "ユーザーの画面に表示されません。"
+
+#: views/ajrv_rlist_group_list.php:32 views/ajrv_rlist_list.php:94
+msgid "검색"
+msgstr "検索"
+
+#: views/ajrv_rlist_link.php:4
+msgid "정말 글과의 연결을 해제하겠습니까?"
+msgstr "本当に文との接続を解除しますか？"
+
+#: views/ajrv_rlist_link.php:28
+msgid "해당 글 뒤에 리뷰가 표시됩니다."
+msgstr "この記事の後にレビューが表示されます。"
+
+#: views/ajrv_rlist_link.php:30
+msgid "해당 글 앞에 리뷰가 표시됩니다."
+msgstr "この記事の前にレビューが表示されます。"
+
+#: views/ajrv_rlist_link.php:32
+msgid "해당 글 앞과 뒤에 리뷰가 표시됩니다."
+msgstr "この記事の前後のレビューが表示されます。"
+
+#: views/ajrv_rlist_link.php:37
+msgid "포스트나 페이지 1개를 선택하여 연결할 수 있습니다."
+msgstr "ポストやページの1つを選択して接続することができます。"
+
+#: views/ajrv_rlist_link.php:41
+msgid "연결할 리뷰"
+msgstr "接続レビュー"
+
+#: views/ajrv_rlist_link.php:48 views/ajrv_setting_basic.php:47
+msgid "포스트"
+msgstr "ポスト"
+
+#: views/ajrv_rlist_link.php:50 views/ajrv_rlist_link.php:70
+msgid "선택해주세요."
+msgstr "選択してください。"
+
+#: views/ajrv_rlist_link.php:68 views/ajrv_setting_basic.php:48
+msgid "페이지"
+msgstr "ページ"
+
+#: views/ajrv_rlist_link.php:90
+msgid "연결하기"
+msgstr "接続する"
+
+#: views/ajrv_rlist_list.php:4
+msgid "정말 해당 리뷰를 삭제하겠습니까?"
+msgstr "本当にそのレビューを削除しますか？"
+
+#: views/ajrv_rlist_shcode.php:6
+msgid "AJ 리뷰 Shortcodes"
+msgstr "AJレビューShortcodes"
+
+#: views/ajrv_rlist_shcode.php:10
+msgid "개별 리뷰"
+msgstr "個別レビュー"
+
+#: views/ajrv_rlist_shcode.php:11 views/ajrv_rlist_shcode.php:15
+#: views/ajrv_rlist_shcode.php:61 views/ajrv_rlist_shcode.php:65
+msgid "옵션"
+msgstr "オプション"
+
+#: views/ajrv_rlist_shcode.php:22
+msgid "post/page id(글의 고유 번호)"
+msgstr "post / page id（文の固有番号）"
+
+#: views/ajrv_rlist_shcode.php:26
+msgid "review id(리뷰의 고유 번호)"
+msgstr "review id（レビューの固有番号）"
+
+#: views/ajrv_rlist_shcode.php:30 views/ajrv_rlist_shcode.php:76
+msgid "스킨 이름(box 또는 simple)"
+msgstr "スキンの名前（boxまたはsimple）"
+
+#: views/ajrv_rlist_shcode.php:34 views/ajrv_rlist_shcode.php:38
+#: views/ajrv_rlist_shcode.php:100
+msgid "예시"
+msgstr "例示"
+
+#: views/ajrv_rlist_shcode.php:45
+msgid "post/page id가 358인 글에 연결된 리뷰"
+msgstr "post / page idが358である文に接続されたレビュー"
+
+#: views/ajrv_rlist_shcode.php:49
+msgid "review id가 3인 리뷰"
+msgstr "review idが3のレビュー"
+
+#: views/ajrv_rlist_shcode.php:54
+msgid "review id가 3인 리뷰를 'box' 스킨으로 표현"
+msgstr "review idが3のレビューを「box」のスキンで表現"
+
+#: views/ajrv_rlist_shcode.php:55 views/ajrv_rlist_shcode.php:124
+msgid "skin = box 또는 simple"
+msgstr "skin = boxまたはsimple"
+
+#: views/ajrv_rlist_shcode.php:72
+msgid "표시할 리뷰의 고유 번호들(복수일 경우, 콤마로 구분)"
+msgstr "表示するレビューの固有番号に（複数の場合は、カンマで区切って）"
+
+#: views/ajrv_rlist_shcode.php:80
+msgid "목록의 개수"
+msgstr "リストの数"
+
+#: views/ajrv_rlist_shcode.php:84
+msgid "카테고리 이름(지정한 카테고리만)"
+msgstr "カテゴリー名（指定されたカテゴリのみ）"
+
+#: views/ajrv_rlist_shcode.php:88
+msgid "리뷰 제목에 키워드(해당 단어가 포함된 리뷰만)"
+msgstr "レビューのタイトルにキーワード（単語が含まれているレビューのみ）"
+
+#: views/ajrv_rlist_shcode.php:92
+msgid ""
+"총점으로 오름차순/내림차순 정렬(desc(기본값) : 내림차순, asc : 오름차순)"
+msgstr "総点で昇順/降順の並べ替え（desc（デフォルト）：降順、asc：昇順）"
+
+#: views/ajrv_rlist_shcode.php:107
+msgid "전체 리뷰 목록"
+msgstr "全レビューリスト"
+
+#: views/ajrv_rlist_shcode.php:111
+msgid "그룹 ID가 1인 리뷰 목록"
+msgstr "グループIDが1であるレビューリスト"
+
+#: views/ajrv_rlist_shcode.php:116
+msgid "review id가 1,2,4인 것만 표시"
+msgstr "review idが1,2,4であることだけを表示"
+
+#: views/ajrv_rlist_shcode.php:117
+msgid "(공백 없이 콤마로 구분)"
+msgstr "（スペースを入れず、コンマで区切っ）"
+
+#: views/ajrv_rlist_shcode.php:123
+msgid "리뷰를 'box' 스킨으로 표현"
+msgstr "レビューを「box」のスキンで表現"
+
+#: views/ajrv_rlist_shcode.php:130
+msgid "리뷰 항목을 표현하는 방식"
+msgstr "レビュー項目を表現する方式"
+
+#: views/ajrv_rlist_shcode.php:131
+msgid "displaytype = list 또는 inline"
+msgstr "displaytype = listまたはinline"
+
+#: views/ajrv_rlist_shcode.php:137
+msgid "리뷰를 'box' 스킨으로 표현, 목록의 개수는 reviewcount만큼 표시"
+msgstr ""
+"レビューを「box」のスキンとして表現する、リストの数は、reviewcountだけ表示"
+
+#: views/ajrv_rlist_shcode.php:143
+msgid ""
+"카테고리가 '전략'인 리뷰를 'box' 스킨으로 표현, 목록의 개수는 reviewcount만"
+"큼 표시"
+msgstr ""
+"カテゴリーが「戦略」的なレビューを「box」のスキンとして表現する、リストの数"
+"は、reviewcountだけ表示"
+
+#: views/ajrv_rlist_shcode.php:149
+msgid ""
+"제목에 '최고'라는 단어가 표시되면서 카테고리가 '전략'인 리뷰를 'box' 스킨으"
+"로 표현"
+msgstr ""
+"タイトルに「最高」という言葉が表示され、カテゴリが「戦略」的なレビューを"
+"「box」のスキンで表現"
+
+#: views/ajrv_rlist_shcode.php:150
+msgid "목록의 개수는 reviewcount만큼 표시"
+msgstr "リストの数は、reviewcountだけ表示"
+
+#: views/ajrv_rlist_shcode.php:156
+msgid ""
+"제목에 '최고'라는 단어가 포함되면서 카테고리가 '전략'인 리뷰를 'box' 스킨으"
+"로 표현"
+msgstr ""
+"タイトルに「最高」という単語が含まれていながらのカテゴリが「戦略」的なレ"
+"ビューを「box」のスキンで表現"
+
+#: views/ajrv_rlist_shcode.php:157
+msgid ""
+"목록의 개수는 reviewcount만큼 표시 정렬은 총점이 낮은 순으로...(반대는 "
+"desc, 기본값은 '높은 순')"
+msgstr ""
+"リストの数は、reviewcountだけ表示順序は、総点が低い順に...（反対はdesc、デ"
+"フォルトでは「高い順」）"
+
+#: views/ajrv_rlist_view.php:20 views/ajrv_setting_basic.php:74
+msgid "박스형"
+msgstr "箱入り"
+
+#: views/ajrv_rlist_view.php:21 views/ajrv_setting_basic.php:78
+msgid "심플형"
+msgstr "シムプルヒョン"
+
+#: views/ajrv_rlist_view.php:22 views/ajrv_setting_basic.php:82
+msgid "White"
+msgstr "White"
+
+#: views/ajrv_setting_basic.php:28 views/ajrv_view_single_post_html.php:81
+msgid "구매 적정가"
+msgstr "購入は適正"
+
+#: views/ajrv_setting_basic.php:29 views/ajrv_view_single_post_html.php:82
+msgid "미정"
+msgstr "未定"
+
+#: views/ajrv_setting_basic.php:34 views/ajrv_setting_lic.php:7
+#: views/ajrv_setting_userrating.php:12
+msgid "기본 설정"
+msgstr "デフォルトの設定"
+
+#: views/ajrv_setting_basic.php:35 views/ajrv_setting_userrating.php:13
+msgid "댓글 리뷰"
+msgstr "コメントレビュー"
+
+#: views/ajrv_setting_basic.php:44
+msgid "사용 범위"
+msgstr "使用範囲"
+
+#: views/ajrv_setting_basic.php:46
+msgid "포스트/페이지"
+msgstr "ポスト/ページ"
+
+#: views/ajrv_setting_basic.php:52
+msgid "리뷰 헤더 텍스트"
+msgstr "レビューヘッダテキスト"
+
+#: views/ajrv_setting_basic.php:56
+msgid "리뷰 위치"
+msgstr "レビューの位置"
+
+#: views/ajrv_setting_basic.php:58
+msgid "글 하단"
+msgstr "記事の下部"
+
+#: views/ajrv_setting_basic.php:59
+msgid "글 상단"
+msgstr "記事の上部"
+
+#: views/ajrv_setting_basic.php:64
+msgid "점수 최대값"
+msgstr "スコア最大値"
+
+#: views/ajrv_setting_basic.php:68
+msgid "리뷰 스타일"
+msgstr "レビュースタイル"
+
+#: views/ajrv_setting_basic.php:92
+msgid "구매 적정 가격"
+msgstr "購入適正価格"
+
+#: views/ajrv_setting_basic.php:94 views/ajrv_setting_basic.php:119
+msgid "사용"
+msgstr "使用"
+
+#: views/ajrv_setting_basic.php:95 views/ajrv_setting_basic.php:120
+msgid "사용 안함"
+msgstr "を無効にする"
+
+#: views/ajrv_setting_basic.php:98
+msgid "가격 단위(앞에 표시)"
+msgstr "価格単位（前に表示）"
+
+#: views/ajrv_setting_basic.php:102
+msgid "가격 단위(뒤에 표시)"
+msgstr "価格単位（後に表示）"
+
+#: views/ajrv_setting_basic.php:106
+msgid "구매 적정가 텍스트"
+msgstr "購入は適正テキスト"
+
+#: views/ajrv_setting_basic.php:110
+msgid "미설정 텍스트"
+msgstr "未設定のテキスト"
+
+#: views/ajrv_setting_basic.php:117
+msgid "장점/단점 사용여부"
+msgstr "長所/短所を使用するかどうか"
+
+#: views/ajrv_setting_basic.php:123
+msgid "장점 타이틀"
+msgstr "利点タイトル"
+
+#: views/ajrv_setting_basic.php:124
+msgid "(Ex, 장점, Good)"
+msgstr "（Ex、利点は、Good）"
+
+#: views/ajrv_setting_basic.php:127
+msgid "단점 타이틀"
+msgstr "欠点タイトル"
+
+#: views/ajrv_setting_basic.php:128
+msgid "(Ex, 단점, Bad)"
+msgstr "（Ex、欠点、Bad）"
+
+#: views/ajrv_setting_basic.php:135 views/ajrv_setting_userrating.php:50
+msgid "변경 사항 적용"
+msgstr "変更を適用"
+
+#: views/ajrv_setting_basic.php:141 views/ajrv_setting_userrating.php:56
+msgid "라이센스가 없습니다."
+msgstr "ライセンスがありません。"
+
+#: views/ajrv_setting_basic.php:144 views/ajrv_setting_lic.php:8
+#: views/ajrv_setting_userrating.php:59
+msgid "라이센스 정보"
+msgstr "ライセンス情報"
+
+#: views/ajrv_setting_basic.php:144 views/ajrv_setting_userrating.php:59
+msgid " - 라이센스를 등록하면 정상적으로 모든 기능을 이용할 수 있습니다."
+msgstr ""
+" - ライセンスを登録すると、正常にすべての機能を利用することができます。"
+
+#: views/ajrv_setting_lic.php:16
+msgid "라이센스 키"
+msgstr "ライセンスキー"
+
+#: views/ajrv_setting_lic.php:22 views/ajrv_setting_lic.php:55
+msgid "도메인"
+msgstr "ドメイン"
+
+#: views/ajrv_setting_lic.php:28
+msgid "라이센스 발급일시"
+msgstr "ライセンスの発行日時"
+
+#: views/ajrv_setting_lic.php:35
+msgid "라이센스 만료일시"
+msgstr "ライセンスの有効期限時"
+
+#: views/ajrv_setting_lic.php:42
+msgid "Plugin Version"
+msgstr "Plugin Version"
+
+#: views/ajrv_setting_lic.php:58
+msgid "지정한 도메인으로 접속된 사이트에서만 사용이 가능합니다."
+msgstr "指定されたドメインに接続されたサイトでのみ使用が可能です。"
+
+#: views/ajrv_setting_lic.php:62
+msgid "인증키"
+msgstr "認証キー"
+
+#: views/ajrv_setting_lic.php:65
+msgid "홈페이지에서 구입한 인증키를 입력해주세요."
+msgstr "ホームページで購入した認証キーを入力してください。"
+
+#: views/ajrv_setting_userrating.php:18
+msgid "승인된 댓글의 사용자 점수들만 반영됩니다."
+msgstr "承認されたコメントのユーザースコアだけ反映されます。"
+
+#: views/ajrv_setting_userrating.php:19
+msgid "댓글 리뷰의 사용자 키는 사용자의 Email입니다."
+msgstr "コメントレビューのユーザーキーは、ユーザーのEmailです。"
+
+#: views/ajrv_setting_userrating.php:28
+msgid "댓글 리뷰 허용"
+msgstr "コメントレビューを可能に"
+
+#: views/ajrv_setting_userrating.php:30
+msgid "허용"
+msgstr "許可"
+
+#: views/ajrv_setting_userrating.php:31
+msgid "허용 안함"
+msgstr "許可しない"
+
+#: views/ajrv_setting_userrating.php:35
+msgid "로그인 사용자만 댓글 리뷰"
+msgstr "ログインユーザーのみコメントレビュー"
+
+#: views/ajrv_setting_userrating.php:37
+msgid "로그인 안한 사용자도 허용"
+msgstr "ログインしなかったユーザも許可"
+
+#: views/ajrv_setting_userrating.php:38
+msgid "로그인 한 사용자만 허용"
+msgstr "ログインしたユーザーのみ"
+
+#: views/ajrv_setting_userrating.php:42
+msgid "사용자 점수 보이기"
+msgstr "ユーザーの評価を表示"
+
+#: views/ajrv_setting_userrating.php:44
+msgid "보이기"
+msgstr "見え"
+
+#: views/ajrv_setting_userrating.php:45
+msgid "가리기"
+msgstr "隠す"
+
+#. Plugin Name of the plugin/theme
+msgid "AJ-Review"
+msgstr "AJ-Review"
+
+#. Description of the plugin/theme
+msgid "Powerfull Review Plugin for post/page"
+msgstr "Powerfull Review Plugin for post / page"
+
+#. Author of the plugin/theme
+msgid "AJ Bang"
+msgstr "AJ Bang"
+
+#. Author URI of the plugin/theme
+msgid "https://2p1d.com"
+msgstr "https://2p1d.com"
+
+#~ msgid "플러그인설정"
+#~ msgstr "プラグインの設定"
+
+#~ msgid "플러그인 설정"
+#~ msgstr "プラグインの設定"
+
+#~ msgid "AJ 리뷰 목록"
+#~ msgstr "AJレビューリスト"
+
+#~ msgid "AJ 리뷰 신규 등록"
+#~ msgstr "AJレビュー新規登録"
+
+#~ msgid "등록"
+#~ msgstr "登録"
+
+#~ msgid "AJ 리뷰 등록"
+#~ msgstr "AJレビュー登録"
+
+#~ msgid "Shortcodes 방법"
+#~ msgstr "Shortcodes方法"
+
+#~ msgid "리뷰 작성"
+#~ msgstr "レビューを書く"
+
+#~ msgid "연결되었습니다."
+#~ msgstr "接続された。"
+
+#~ msgid "글 타입"
+#~ msgstr "記事タイプ"
+
+#~ msgid "목록"
+#~ msgstr "リスト"
+
+#~ msgid "로그"
+#~ msgstr "ログ"
+
+#~ msgid "리뷰 플러그인에 대한 기본적인 설정을 할 수 있습니다."
+#~ msgstr "レビュープラグインの基本的な設定をすることができます。"
+
+#~ msgid ""
+#~ "레이센스에 대한 정보를 관리합니다. 라이센스가 없는 경우, 이곳에서 라이센"
+#~ "스를 등록할 수 있습니다."
+#~ msgstr ""
+#~ "レイセンスに関する情報を管理します。ライセンスがない場合は、ここでライセ"
+#~ "ンスを登録することができます。"
+
+#~ msgid ""
+#~ "라이센스를 삭제하면, Plugin의 동작이 정상적으로 작동하지 않을 수 있습니"
+#~ "다."
+#~ msgstr ""
+#~ "ライセンスを削除すると、Pluginの動作が正常に動作しない場合があります。"
+
+#~ msgid ""
+#~ "라이센스는 도메인에 할당됩니다. 도메인이 변경되면 새로운 라이센스를 발급"
+#~ "받아야 합니다."
+#~ msgstr ""
+#~ "ライセンスは、ドメインに割り当てられます。ドメインが変更されると、新しい"
+#~ "ライセンスを取得してください。"
+
+#~ msgid "hitapia"
+#~ msgstr "hitapia"

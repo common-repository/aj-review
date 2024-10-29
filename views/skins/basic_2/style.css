@@ -1,0 +1,369 @@
+/*
+.ajrv_color_1 {
+    background: #01395C;
+}
+.ajrv_color_2 {
+    background: #F28C81;
+}
+.ajrv_color_3 {
+    background: #F0E5D6;
+}
+.ajrv_color_4 {
+    background: #FAFBF6;
+}
+.ajrv_color_5 {
+    background: #C93C3E;
+}
+.ajrv_color_6 {
+    color: #ffffff;
+}
+.ajrv_color_7 {
+    background: #01395C;
+}
+.ajrv_color_8 {
+    color: #000;
+}
+*/
+div.ajrv_rbox_basic_2 .ajrv_color_1, 
+div.ajrv_basic_2_wdget_item .ajrv_color_1, 
+div.ajrv_listitem_basic_2 .ajrv_color_1 { /* 대표 */
+    background: #50556B;
+}
+div.ajrv_rbox_basic_2 .ajrv_color_2, 
+div.ajrv_basic_2_wdget_item .ajrv_color_2, 
+div.ajrv_listitem_basic_2 .ajrv_color_2 { /* 점수 및 바 */
+    background: #F8D533;
+}
+div.ajrv_rbox_basic_2 .ajrv_color_3, 
+div.ajrv_basic_2_wdget_item .ajrv_color_3, 
+div.ajrv_listitem_basic_2 .ajrv_color_3 { /* 점수 및 바의 배경 */
+    background: #fff;
+}
+div.ajrv_rbox_basic_2 .ajrv_color_4, 
+div.ajrv_basic_2_wdget_item .ajrv_color_4, 
+div.ajrv_listitem_basic_2 .ajrv_color_4 { /* BG */
+    background: #FCFCFC;
+}
+div.ajrv_rbox_basic_2 .ajrv_color_5, 
+div.ajrv_basic_2_wdget_item .ajrv_color_5, 
+div.ajrv_listitem_basic_2 .ajrv_color_5 { /* Negative */
+    color: #85868c;
+}
+div.ajrv_rbox_basic_2 .ajrv_color_6, 
+div.ajrv_basic_2_wdget_item .ajrv_color_6, 
+div.ajrv_listitem_basic_2 .ajrv_color_6 {
+    color: #85868c;
+}
+div.ajrv_rbox_basic_2 .ajrv_color_7, 
+div.ajrv_basic_2_wdget_item .ajrv_color_7, 
+div.ajrv_listitem_basic_2 .ajrv_color_7 {
+    color: #85868c;
+}
+div.ajrv_rbox_basic_2 .ajrv_color_8, 
+div.ajrv_basic_2_wdget_item .ajrv_color_8, 
+div.ajrv_listitem_basic_2 .ajrv_color_8 {
+    color: #85868c;
+}
+div.ajrv_rbox_basic_2 .ajrv_color_9, 
+div.ajrv_basic_2_wdget_item .ajrv_color_9, 
+div.ajrv_listitem_basic_2 .ajrv_color_9 {
+    color: #F8D533;
+}
+div.ajrv_rbox_basic_2 .ajrv_color_10, 
+div.ajrv_basic_2_wdget_item .ajrv_color_10, 
+div.ajrv_listitem_basic_2 .ajrv_color_10 {
+    background: #7EAAF6;
+}
+div.ajrv_rbox_basic_2 .ajrv_color_11, 
+div.ajrv_basic_2_wdget_item .ajrv_color_11, 
+div.ajrv_listitem_basic_2 .ajrv_color_11 {
+    color: #504F71;
+}
+div.ajrv_listitem_basic_2 {
+    margin-bottom: 8px;
+}
+div.ajrv_rbox_basic_2, div.ajrv_listitem_basic_2 {
+    margin-bottom: 8px;
+    color:#504F71;
+}
+div.ajrv_rbox_basic_2 .small {
+    font-size:small;
+}
+div.ajrv_rbox_basic_2 .category {
+    font-size:small;
+    padding: 8px 12px;
+}
+div.ajrv_rbox_basic_2 .title {
+    font-size:x-large;
+}
+div.ajrv_rbox_basic_2 .summary {
+    padding: 0px 0px 0px 12px;
+    font-weight: bold;
+    float: left;
+    width: 80%;
+}
+div.ajrv_rbox_basic_2 .summary_title {
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+div.ajrv_rbox_basic_2 .summary_content {
+    font-size:initial;
+    padding: 12px 0px 0px 0px;
+    line-height: normal;
+    margin-right: 4px;
+}
+div.ajrv_listitem_basic_2 .ajrv_product {
+    font-weight: bold;
+    font-size:larger;
+}
+div.ajrv_rbox_basic_2 .summary_content_item {
+    padding: 8px;
+    line-height: normal;
+    margin-right: 4px;
+}
+div.ajrv_rbox_basic_2 .ajrv_val_bar {
+    width: 100%;
+    padding:8px 12px 8px 12px;
+}
+div.ajrv_rbox_basic_2 .ajrv_val_bar .ajrv_val_bar_item {
+    padding: 2px 0px 2px 0px;
+}
+div.ajrv_rbox_basic_2 .ajrv_val_bar .ajrv_val_bar_item > span {
+    margin-left: 12px;
+    white-space: nowrap;
+    position: relative;
+    text-align: left;    
+}
+div.ajrv_rbox_basic_2 .pros_title {
+    padding: 8px 12px 0px 12px;
+    font-weight: bold;
+}
+div.ajrv_rbox_basic_2 .cons_title {
+    padding: 8px 12px 0px 12px;
+    font-weight: bold;
+}
+div.ajrv_rbox_basic_2 .pros > ul {
+    list-style: none;
+	margin: 0px 0px 8px 12px;
+    padding: 0px 8px 0px 12px;
+}
+div.ajrv_rbox_basic_2 .cons > ul {
+    list-style: none;
+	margin: 0px 0px 8px 12px;
+    padding: 0px 8px 0px 12px;
+}
+div.ajrv_rbox_basic_2 .overall {
+    margin:auto;
+    width: 92px;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 30px;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+div.ajrv_rbox_basic_2 .box_border, div.ajrv_listitem_basic_2 .box_border {
+    border:1px solid #e3e3e3;
+}
+div.ajrv_rbox_basic_2 .umount {
+    margin:auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+div.ajrv_listitem_basic_2 .row:after {
+    clear: both;
+}
+div.ajrv_listitem_basic_2 .column {
+    float: left;
+}
+div.ajrv_listitem_basic_2 .column40 {
+    margin:auto;
+    margin-bottom:12px;
+    width: 40%;
+}
+div.ajrv_listitem_basic_2 .column60 {
+    width: 60%;
+}
+div.ajrv_listitem_basic_2 .column30 {
+    margin:auto;
+    margin-bottom:12px;
+    width: 30%;
+}
+div.ajrv_listitem_basic_2 .column70 {
+    width: 70%;
+}
+div.ajrv_listitem_basic_2 .col70 {
+    margin-left:14px;
+}
+div.ajrv_rbox_basic_2 .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+div.ajrv_rbox_basic_2 .row:after {
+    clear: both;
+}
+div.ajrv_rbox_basic_2 .column {
+    float: left;
+}
+div.ajrv_rbox_basic_2 .column30 {
+    margin:auto;
+    margin-bottom:12px;
+    width: 30%;
+}
+div.ajrv_rbox_basic_2 .column70 {
+    width: 70%;
+}
+div.ajrv_rbox_basic_2 .col70 {
+    margin-left:14px;
+}
+div.ajrv_rbox_basic_2 .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.ajrv_listitem_basic_2 .ajrv_basic_item_cri {
+    position:relative;
+}
+.ajrv_listitem_basic_2 .ajrv_clfix {
+    clear: both;
+}
+div.ajrv_rbox_basic_2 .base_box{
+    padding: 14px 14px 0px 14px;
+}
+div.ajrv_rbox_basic_2 table, div.ajrv_rbox_basic_2 td{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    vertical-align:top;
+}
+div.ajrv_listitem_basic_2 .ajrv_item_overall{
+    padding: 8px;
+}
+div.ajrv_basic_2_wdget_item .overall_small {
+    color: #fff;
+    font-size: x-large;
+    font-weight: bold;
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
+div.ajrv_listitem_basic_2 .li_overall{
+    font-weight : bold;
+    font-size : 42px;
+    color:#fff;
+}
+div.ajrv_basic_2_wdget_item {
+    position: relative;
+    margin-bottom: 14px;
+    cursor:pointer;
+}
+div.ajrv_basic_2_wdget_item .title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: black;
+    padding-top: 8px;
+}
+div.ajrv_basic_2_wdget_item .ajrv_val_bar {
+    width: 100%;
+    border-bottom: 1px solid #f5f5f5;
+    border-top: 1px solid #f5f5f5;
+}
+div.ajrv_basic_2_wdget_item .ajrv_val_bar .ajrv_val_bar_item {
+    padding: 0px;
+    line-height: 20px;
+    font-size: 12px;
+}
+div.ajrv_basic_2_wdget_item .ajrv_val_bar .ajrv_val_bar_item > span {
+    margin-left: 12px;
+    white-space: nowrap;
+    position: relative;
+    text-align: left;    
+}
+.ajrv_listitem_basic_2 div.ajrv_basic_item_cri .ajrv_val_bar {
+    width: 100%;
+}
+div.ajrv_listitem_basic_2 ajrv_basic_item_cri .ajrv_val_bar .ajrv_val_bar_item > span {
+    margin-left: 12px;
+    white-space: nowrap;
+    position: relative;
+    text-align: left;    
+}
+div.ajrv_basic_2_wdget_item .ajrv_thumb  {
+    width:100%;
+    max-height:200px;
+    position:relative;
+    display: block;
+    margin: auto;
+}
+div.ajrv_rbox_basic_2 .useramount {
+    margin-bottom : 4px;
+}
+div.ajrv_listitem_basic_2 .ajrv_small {
+    margin-bottom: -4px;
+}
+.ajrv_listitem_basic_2 div.overall_list_item {
+    float: right;
+    width: 82px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.ajrv_listitem_basic_2 div.overall_list_item .ov_large {
+    font-size: xx-large;
+}
+.ajrv_listitem_basic_2 .ajrv_product_title {
+    font-size: x-large;
+    font-weight:bold;
+    color:#fff;
+}
+.ajrv_listitem_basic_2 div.overall_list_item .overall_small {
+    text-align: center;
+    font-weight: bold;
+    width: 53px;
+    height: 53px;
+    margin-right:4px;
+    border-bottom: 1px solid;
+    position: absolute;
+    left:8px;
+    top:8px;
+    box-shadow: 4px 4px 8px #8d8d8d;;
+}
+div.ajrv_listitem_basic_2 table, div.ajrv_listitem_basic_2 td{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    vertical-align:top;
+}
+div.ajrv_listitem_basic_2 .summary_content_item {
+    padding: 8px;
+    line-height: normal;
+    margin-right: 4px;
+}
+div.ajrv_listitem_basic_2 a {
+    text-decoration:none;
+}
+.ajrv_container {
+    position: relative;
+}
+div.ajrv_rbox_basic_2 .ajrv_overlay, 
+div.ajrv_basic_2_wdget_item .ajrv_overlay, 
+div.ajrv_listitem_basic_2 .ajrv_overlay {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.7);
+  z-index: 2;
+  cursor: pointer;
+}
+.aj_bs_iso * {
+    line-height: initial;
+}
